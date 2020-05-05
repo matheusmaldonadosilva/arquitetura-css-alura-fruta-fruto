@@ -1,0 +1,7 @@
+.menu__item {
+    list-style: none;
+}
+
+.menu__item:last-child .menu__link { /* last-child - o ultimo filho iremos atribuir */
+    margin-right: 0;
+}

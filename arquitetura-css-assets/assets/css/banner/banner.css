@@ -1,0 +1,4 @@
+.banner {
+    position: relative; /* tem que informa o titulo que não pode ser absoluto a pagina e sim relativo ao seu pai o banner */
+}
+

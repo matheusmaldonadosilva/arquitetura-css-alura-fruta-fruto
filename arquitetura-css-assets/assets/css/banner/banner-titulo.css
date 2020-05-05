@@ -1,0 +1,25 @@
+.banner__titulo {
+    color: #fdfdfd;
+    font-family: Pacifico, cursive;
+    left: 50%;
+    position: absolute; /* titulo esta sendo absoluto a página */
+    text-align: center;
+    text-shadow: 0 4px 4px rgba(0, 0, 0, 0.75);
+    top: 50%;
+    transform: translate(-50%, -50%);
+    width: 100%;
+}
+
+/*retirado o font-size da classe banner__titulo, porque toda propriedade que temos que trabalhar no seletor responsivo, tiramos do seletor principal e colocamos nos medias querys */
+
+@media screen and (min-width: 0){
+    .banner__titulo{
+        font-size: 3rem;
+    }   
+}
+
+@media screen and (min-width: 768px) {
+    .banner__titulo {
+        font-size: 5.0625rem;
+    }
+}

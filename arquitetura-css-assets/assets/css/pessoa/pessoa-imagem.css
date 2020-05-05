@@ -1,0 +1,22 @@
+.pessoa__imagem {
+    background: red;
+    background-position: center; /*queremos centralizar nosso background */
+    border-radius: 100%; /* deixar as imagens redondas */
+    background-repeat: no-repeat; /* para nao repetir a imagem no quadro */
+    background-size: cover; /* queremos que a imagem oculpe todo o quadrado com cover */
+    height: 300px;
+    margin: 0 auto; /* o auto serve para que centralize a imagem */
+    width: 300px;
+}
+
+.pessoa__imagem--roberta {
+    background-image: url('../../img/pessoas/roberta.jpg');
+}
+
+.pessoa__imagem--marcela {
+    background-image: url('../../img/pessoas/marcela.jpg');
+}
+
+.pessoa__imagem--andreia {
+    background-image: url('../../img/pessoas/andreia.jpg');
+}

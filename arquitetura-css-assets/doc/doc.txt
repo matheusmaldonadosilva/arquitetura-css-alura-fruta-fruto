@@ -1,0 +1,34 @@
+todos os arquivos colocamos dentro da pasta assets
+
+normalize ele é um reset em todos os navegadores para ter um padrao entre eles
+reset do css para que queremos como padrao que não consta no normalize
+
+-------------------------------------------------------------------------
+
+BEM
+
+Block Element Modifier
+
+Bloco Elemento Modificador
+
+bloco
+
+bloco__elemento
+
+bloco--modoficador
+
+bloco__elemento--modificador
+
+-------------------------------------------------------------------------
+
+
+Colocamos a classe como quemSomos porque como são duas palavras, usamos o padrao de duas, com o início da segunda com a primeira letra maíuscula e a espeficicação do que ela é
+
+--------------------------------------------------------------------------
+
+
+Como as imagens de sobre é para estilização da página é por isso que não aparece no html, e sim diretamente no css, por simplesmente ser por estilo da página
+Quando tem uma certa relevancia a imagem podemos colocar no html 
+---------------------------------------------------------------------------
+
+cores: https://htmlcolorcodes.com/

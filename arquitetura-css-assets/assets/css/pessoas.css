@@ -1,0 +1,18 @@
+.pessoas {
+    display: flex;
+    justify-content: space-around; /* o alinhamento do "pai" (classe pessoas) tem que ter um alinhamento space-around para ter espaço entre todas as caixas */
+    padding-top: 3rem;
+}
+
+@media screen and (min-width: 0){
+    .pessoas {
+        flex-direction: column; /* queremos que cada um fica abaixo do outro, usamos column */
+    }
+}
+
+@media screen and (min-width: 768px){
+    .pessoas{
+        flex-direction: row; /* queremos que fique um ao lado do outro usamos o row */
+    }
+}
+

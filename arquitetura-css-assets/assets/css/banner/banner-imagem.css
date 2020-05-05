@@ -1,0 +1,23 @@
+.banner__imagem{
+    background: url(../../img/banner.jpg) no-repeat center / cover; /* abreviar todos os backgrounds em um estilo só */
+
+/*  background: url(../../img/banner.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center; */
+    width: 100%;
+    
+}   /* passamos o height para o media query a partir de 768px */   
+
+
+@media screen and (min-width: 0){
+    .banner__imagem {
+        height: calc(100vh - 51px);
+    }
+}
+
+@media screen and (min-width: 768px){
+    .banner__imagem {
+        height: calc(100vh - 72px); /* vh se refere ao tamanho da tela do navegador do usuario *//* calculo para retirar a parte do header */
+    }
+}

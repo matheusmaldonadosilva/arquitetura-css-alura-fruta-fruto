@@ -1,0 +1,27 @@
+.receita {
+    background: #fdfdfd;
+    display: flex; /* sera flex para se comporta com flex-box do arquivo receitas.css */
+    flex-direction: column; /* column para quebrar a colunas */
+    margin-bottom: 5rem;
+}
+
+@media screen and (min-width: 0){
+    .receita {
+        margin-right: 1rem;
+        width: 100%;
+    }
+}
+
+@media screen and (min-width: 768px){
+    .receita{
+        margin-right: 2.5rem;
+        width: calc(33.33% - 2.5rem); /* o calculo de 33% é para colocar 3 cards em um linha a partir de 768px, depois muda para 4 */
+    }
+}
+
+@media screen and (min-width: 992px){
+    .receita{
+        margin-right: 5rem;
+        width: calc(25% - 5rem); /* calculo de 25% - 5rem é referido aos 5rem da direita que esta sobrando */
+    }
+}
